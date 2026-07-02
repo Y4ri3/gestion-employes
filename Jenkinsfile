@@ -1,7 +1,7 @@
 pipeline {
 
     agent {
-        label 'agent-windows'  // ou 'linux' selon votre agent Jenkinsssss
+        label 'agent-windows'  // ou 'linux' selon votre agenttttt Jenkinsssss
     }
 
     environment {
