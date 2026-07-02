@@ -56,13 +56,15 @@ pipeline {
     post {
 
         success {
-            echo "✅ CI/CD Backend réussi !"
+            echo " CI/CD Backend réussi !"
         }
 
         failure {
-            echo "❌ Le pipeline a échoué, vérifiez les logs Jenkins."
+            echo " Le pipeline a échoué, vérifiez les logs Jenkins."
         }
 
     }
 
 }
+
+// coucou
